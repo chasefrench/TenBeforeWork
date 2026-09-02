@@ -1,7 +1,7 @@
 /* Cache everything on install, then serve from cache. The app never needs the
    network again, so a cache hit is always correct.
    AFTER EDITING index.html: bump CACHE below, or the phone keeps the old copy. */
-const CACHE = "tenbeforework-v1";
+const CACHE = "tenbeforework-v3";
 const FILES = ["./","./index.html","./manifest.webmanifest",
                "./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png"];
 self.addEventListener("install", e => {
